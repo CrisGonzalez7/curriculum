@@ -1,0 +1,268 @@
+/* General */
+
+body {
+    font-family: 'STIX Two Text', serif;
+    color: #000;
+}
+
+a {
+    color: #277688;
+}
+
+a:hover {
+    color: #1ECDF5;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'STIX Two Text', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.subtitulo {
+    font-weight: 600;
+}
+
+
+/* Navbar */
+
+.logo {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+}
+
+
+/* Header */
+
+.header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.png) top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media (min-width: 1024px) {
+    .header {
+        background-attachment: fixed;
+    }
+}
+
+.contenedor-header {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 35px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .contenedor-header h1 {
+        font-size: 64px;
+        line-height: 56px;
+    }
+}
+
+.contenedor-header p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .contenedor-header p {
+        font-size: 26px;
+    }
+}
+
+
+/* Secciones */
+
+section {
+    padding-top: 30px;
+}
+
+.titulo-seccion h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #277688;
+    border-bottom: 3px solid #1ECDF5;
+}
+
+
+/* Sobre mí */
+
+.sobre-mi {
+    display: inline-flex;
+}
+
+.img-perfil {
+    height: 25vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sobre-mi h3 {
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.sobre-img {
+    height: 30px;
+}
+
+
+/* Educación */
+
+.educacion .educacion-titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.educacion .educacion-info {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+.educacion .educacion-info h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.educacion-info span {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .educacion-info span {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+.educacion .educacion-info ul {
+    padding-left: 20px;
+}
+
+.educacion .educacion-info ul li {
+    padding-bottom: 10px;
+}
+
+.educacion .educacion-info:last-child {
+    padding-bottom: 0;
+}
+
+.educacion .educacion-info::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+
+/* Portafolio */
+
+.portafolio-img {
+    width: 100%;
+}
+
+.portafolio-link {
+    padding-top: 10px;
+}
+
+.sitio-portafolio p {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    background: #040b14;
+}
+
+
+/* Boton Volver Arriba */
+
+.back-to-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: #1ECDF5;
+    color: #fff;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.back-to-top:hover {
+    color: #277688;
+}
+
+
+/** Creditos **/
+
+.imagen-creditos {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .imagen-creditos {
+        max-width: 450px;
+    }
+}
+
+.ocultar {
+    display: none;
+}
