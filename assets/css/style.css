@@ -213,6 +213,44 @@ section {
 .sitio-portafolio p {
     margin-top: 15px;
     font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* Contacto */
+
+.contacto {
+    margin-bottom: 30px;
+}
+
+.contacto-img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.lista-contacto {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Formulario */
+
+.formulario {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.btn {
+    background-color: #1f5297;
+    padding: 8px 20px;
+    color: #fff;
+    margin: 10px 0;
 }
 
 
@@ -222,6 +260,12 @@ section {
     padding: 15px;
     color: #f4f6fd;
     background: #040b14;
+}
+
+.footer {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 

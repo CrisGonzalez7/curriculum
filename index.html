@@ -167,17 +167,41 @@
     </section>
 
     <!--Contacto-->
-    <section id="section3">
+    <section id="section3" class="contacto">
         <div class="container">
             <div class="titulo-seccion">
                 <h2>Contacto</h2>
             </div>
             <div class="row">
-                <ul>
-                    <li><b>Sitio Web:</b> <a href="https://serviciodigital.cl/">serviciodigital.cl</a></li>
-                    <li><b>Celular:</b> +56962455212</li>
-                    <li><b>Correo:</b> veronicagonzalez@serviciodigital.cl</li>
-                </ul>
+                <div class="col-lg-6 text-center">
+                    <img class="contacto-img" src="assets/img/contacto.svg" alt="contacto">
+                    <ul class="lista-contacto">
+                        <li><b>Sitio Web:</b> <a href="https://serviciodigital.cl/">serviciodigital.cl</a></li>
+                        <li><b>Celular:</b> +56962455212</li>
+                        <li><b>Correo:</b> veronicagonzalez@serviciodigital.cl</li>
+                    </ul>
+                </div>
+                <!--Formulario-->
+                <div class="col-lg-6">
+                    <p class="formulario">Formulario</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="contact-button-inner text-center">
+                            <button type="button" class="btn">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -185,7 +209,7 @@
     <!--Footer-->
     <footer id="footer" class="text-center">
         <div class="container">
-            <p>Verónica González</p>
+            <p class="footer">Verónica González</p>
             <div class="creditos">
                 <a href="/creditos.html">Créditos</a>
             </div>
@@ -202,13 +226,6 @@
 
     <!--Mi script-->
     <script src="assets/js/script.js"></script>
-
-    <script>
-        $(".ver-mas, .ver-menos").click(function() {
-            $(".ver-mas").toggle();
-            $(".ocultar").toggle("slow");
-        });
-    </script>
 </body>
 
 </html>
