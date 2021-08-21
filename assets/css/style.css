@@ -201,6 +201,10 @@ section {
     display: block;
 }
 
+.ocultar {
+    display: none;
+}
+
 
 /* Portafolio */
 
@@ -306,9 +310,11 @@ section {
 @media (min-width: 768px) {
     .imagen-creditos {
         max-width: 450px;
+        max-height: 300px;
     }
 }
 
-.ocultar {
-    display: none;
+.creditos-titulo {
+    margin: 15px 0 0 0;
+    font-weight: 700;
 }
