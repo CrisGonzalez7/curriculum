@@ -14,10 +14,3 @@ $(".ver-mas, .ver-menos").click(
         $(".ocultar").toggle("slow");
     }
 );
-
-// Boton enviar formulario - Alert 
-$(".btn").click(
-    function() {
-        alert("Formulario enviado correctamente")
-    }
-);
