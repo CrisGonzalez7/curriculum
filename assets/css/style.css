@@ -223,6 +223,86 @@ section {
 }
 
 
+/* CodePen */
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-center {
+    background-position: 50%;
+}
+
+.bg-auto {
+    background-size: auto;
+}
+
+.penIframe {
+    width: 100% !important;
+}
+
+.pen {
+    width: 400px;
+}
+
+.penContainer {
+    border-radius: .375rem;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 400px;
+}
+
+.pen .penContainer .penIframe.show {
+    opacity: 1;
+    transition-duration: .15s;
+    transition-duration: .5s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.pen .penContainer .penIframe {
+    border: none;
+    height: 560px;
+    margin: -90px 0 -70px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 400px;
+    z-index: 5;
+}
+
+iframe {
+    display: block;
+}
+
+#embed-nav {
+    background: #ffffff;
+    display: none !important;
+}
+
+#result-box.zoom-1 iframe {
+    width: 100%!important;
+    height: 400px!important;
+}
+
+#html-box.active,
+#css-box.active,
+#js-box.active,
+#result-box.active {
+    display: block;
+    height: 400px;
+}
+
+.link-codepen svg {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
 /* Contacto */
 
 .contacto {
