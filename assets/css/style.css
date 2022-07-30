@@ -225,6 +225,17 @@ section {
 
 /* CodePen */
 
+.codepen {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.pens {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
 .bg-no-repeat {
     background-repeat: no-repeat;
 }
@@ -279,22 +290,8 @@ iframe {
     display: block;
 }
 
-#embed-nav {
-    background: #ffffff;
-    display: none !important;
-}
-
-#result-box.zoom-1 iframe {
-    width: 100%!important;
-    height: 400px!important;
-}
-
-#html-box.active,
-#css-box.active,
-#js-box.active,
-#result-box.active {
-    display: block;
-    height: 400px;
+.link-codepen {
+    margin-top: 10px;
 }
 
 .link-codepen svg {
@@ -352,6 +349,19 @@ iframe {
     margin: 0;
     font-size: 20px;
     font-weight: 700;
+}
+
+.redes-sociales a {
+    color: #f4f6fd;
+}
+
+.redes-sociales a:hover {
+    color: #1ECDF5;
+}
+
+.redes-sociales a i {
+    font-size: 24px;
+    padding: 10px;
 }
 
 
